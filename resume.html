@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Resume - Deepika Kurapati</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 40px;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    .resume {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      font-size: 32px;
+      color: #2c3e50;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin-top: 30px;
+      color: #3498db;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .contact {
+      margin-bottom: 20px;
+    }
+
+    .section p, li {
+      line-height: 1.6;
+    }
+
+    .print-btn {
+      margin: 20px auto;
+      display: block;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .print-btn:hover {
+      background-color: #2980b9;
+    }
+
+    @media print {
+      .print-btn {
+        display: none;
+      }
+      body {
+        margin: 0;
+        background: #fff;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="resume">
+    <h1>Deepika Kurapati</h1>
+    <div class="contact">
+      <p><strong>Email:</strong> deepika@gmail.com</p>
+      <p><strong>Phone:</strong> +91-9876543210</p>
+      <p><strong>LinkedIn:</strong> linkedin.com/in/deepika</p>
+      <p><strong>GitHub:</strong> github.com/deepikak</p>
+    </div>
+
+    <div class="section">
+      <h2>Professional Summary</h2>
+      <p></p>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <p><strong>Pursuing Bachelor of Technology in Computer Science - Arificial Intelligence</strong><br>
+      MRCET college(2023-2027)<br></p>
+    </div>
+
+    <div class="section">
+      <h2>Work Experience</h2>
+      <p><strong>Web Developer Intern</strong> — ABC Solutions<br>
+      Jan 2024 – May 2024</p>
+      <ul>
+        <li>Built responsive web pages using HTML, CSS, and JavaScript</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Projects</h2>
+      <p><strong>Smart Grocery Planner</strong> — Personal Project</p>
+      <ul>
+        <li>Search recipes based on 2–3 ingredients</li>
+        <li>Includes image, procedure, and YouTube video link</li>
+        <li>Tech Stack: HTML, CSS, JavaScript</li>
+      </ul>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Java, Python</li>
+        
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Cambridge Certificate</li>
+        <li>Codetantra certificate</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Languages</h2>
+      <ul>
+        <li>English — Fluent</li>
+        <li>Telugu — Native</li>
+        <li>Hindi — Intermediate</li>
+      </ul>
+    </div>
+  </div>
+
+  <button class="print-btn" onclick="window.print()">Print / Save as PDF</button>
+</body>
+</html>
